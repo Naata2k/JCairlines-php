@@ -1,0 +1,122 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Readex Pro", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    overflow-x: hidden;
+}
+
+footer{
+    background-color: #D42F32;
+    width: 100vw;
+    height: 35vh;
+    margin-top: 10vh;
+}
+
+.redBox {
+    width: 100vw;
+    height: 8vh;
+    background-color: #D42F32;
+    align-content: center;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    column-gap: 3vw;
+}
+
+.container p {
+    font-size: 1.3rem;
+}
+
+.bannerImg {
+    width: 100vw; 
+    margin-bottom: 5rem;
+}
+
+.jcairlineText {
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    font-size: 2em;
+    color: white;
+    text-shadow: 4px 5px #00000086;
+}
+
+.footerParagraphs {
+    padding-top: 3vh;
+}
+
+.footerParagraphs p{
+    color: white;
+    font-size: 1.2em;
+    margin-left: 1vw;
+}
+
+.lineInputs {
+    display: flex;
+    width: 25vw;
+    align-items: center;
+}
+
+.lineInputs input {
+    flex: 1;
+    height: 4vh;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 1.3rem;
+}
+
+
+.leftPanel {
+    width: 25vw;
+}
+
+.rightPanelContent {
+    background-color: #D42F32;
+    padding: 2rem;
+}
+
+.rightPanel {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.rightPanel p {
+    color: white;
+}
+
+.price{
+    margin-right: 1rem;
+}
+
+button {
+    background-color: #D42F32;
+    padding: 1rem;
+    border: 0;
+    color: white;
+}
+
+@media screen and (max-width: 1200px) {
+    .leftPanel {
+        width: 50vw;
+    }
+
+    .lineInputs {
+        width: 30vw;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .leftPanel {
+        width: 70vw;
+    }
+
+}

@@ -1,0 +1,142 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Readex Pro", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    overflow-x: hidden;
+}
+body * {
+    box-sizing: border-box;
+}
+
+footer{
+    background-color: #D42F32;
+    width: 100vw;
+    height: 35vh;
+    margin-top: 10vh;
+}
+
+button {
+    background-color: #D42F32;
+}
+
+button p {
+    color: white;
+}
+
+.footerParagraphs {
+    padding-top: 3vh;
+}
+
+.footerParagraphs p{
+    color: white;
+    font-size: 1.2em;
+    margin-left: 1vw;
+}
+
+.redBox {
+    width: 100vw;
+    height: 8vh;
+    background-color: #D42F32;
+    align-content: center;
+    text-align: center;
+}
+
+.jcairlineText {
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    font-size: 2em;
+    color: white;
+    text-shadow: 4px 5px #00000086;
+}
+
+.bannerImg {
+    width: 100vw;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: max-content;
+    width: 100vw;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.imgContainer img {
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr;
+        grid-template-rows: max-content max-content;
+    }
+
+    .p1 {
+        font-size: 2.3em;
+        color: #D42F32;
+    }
+    
+    .p2 {
+        font-size: 1.6rem;
+    }
+}
+
+.p1 {
+    font-size: 3em;
+    color: #D42F32;
+}
+
+.p2 {
+    font-size: 2rem;
+}
+
+
+.searchBox {
+    background-color: white;
+    position: relative;
+    top: -3rem;
+    float: right;
+    width: max-content;
+    padding: 1em;
+    margin-right: 2rem;
+    border: #00000086;
+    outline: solid;
+    z-index: 999;
+}
+
+.searchBox p {
+    font-size: 1.6em;
+}
+
+.search{
+    height: max-content;
+}
+
+.search p {
+    margin: 0;
+}
+
+.search input {
+    padding: 1em;
+}
+
+button {
+    padding: 0.5em 1em;
+    height: 100%;
+    text-align: center;
+    background-color: #D42F32;
+}
+
+button p{
+    padding: 0;
+    margin: 0;
+}
+

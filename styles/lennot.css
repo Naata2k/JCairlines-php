@@ -1,0 +1,152 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Readex Pro", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    overflow-x: hidden;
+}
+
+a{
+    color: white;
+}
+
+footer{
+    background-color: #D42F32;
+    width: 100vw;
+    height: 35vh;
+    margin-top: 10vh;
+}
+
+.redBox {
+    width: 100vw;
+    height: 8vh;
+    background-color: #D42F32;
+    align-content: center;
+    text-align: center;
+}
+
+.bannerImg {
+    width: 100vw; 
+}
+
+.jcairlineText {
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    font-size: 2em;
+    color: white;
+    text-shadow: 4px 5px #00000086;
+}
+
+.footerParagraphs {
+    padding-top: 3vh;
+}
+
+.footerParagraphs p{
+    color: white;
+    font-size: 1.2em;
+    margin-left: 1vw;
+}
+
+.searchBox {
+    background-color: white;
+    position: relative;
+    top: -4rem;
+    left: 55vw;
+    width: max-content;
+    padding: 1em;
+    border: #00000086;
+    outline: solid;
+}
+
+.searchBox p {
+    font-size: 1.6em;
+}
+
+.search{
+    height: max-content;
+}
+
+.search p {
+    margin: 0;
+}
+
+.search input {
+    height: 4vh;
+    width: 11vw;
+}
+
+button {
+    padding: 0.5em 1em;
+    text-align: center;
+    background-color: #D42F32;
+}
+
+button p{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+
+.container{
+    display: grid;
+    place-items: center;
+}
+
+.redCanvas {
+    background-color: #D42F32;
+    width: 50vw;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    border-radius: 24px;
+    margin-bottom: 2rem;
+}
+
+.redCanvas p{
+    color: white;
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin: 0.7rem;
+}
+
+.redCanvas img {
+    height: 20vh;
+}
+
+.redCanvas div {
+    flex-grow: 1;
+    place-items: center;
+    text-align: left;
+}
+
+hr {
+    border: 2px solid #fff;
+    height: 100%;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: white;
+    margin: 0.7rem;
+}
+
+@media screen and (max-width: 1250px) {
+    .redCanvas {
+        width: 90vw;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .redCanvas p{
+        color: white;
+        font-weight: 500;
+        font-size: 1rem;
+        margin: 0.4rem;
+    }
+}
