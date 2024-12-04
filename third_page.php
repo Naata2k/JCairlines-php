@@ -86,7 +86,7 @@ $conn->close();
 
                 <div class="lineInputs">
                     <p class="tickets">Lippujen määrä:</p>
-                    <input type="number" id="tickets" name="ticket_count" min="1" oninput="updatePrice()" required>
+                    <input type="number" id="tickets" name="ticket_count" min="1" max="<?php echo $flight ? $flight['VapaatPaikat'] : 1; ?>" oninput="updatePrice()" required>
                 </div>
 
                 <input type="hidden" name="LentoID" value="<?php echo $flightID; ?>">
